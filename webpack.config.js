@@ -34,7 +34,7 @@ const webpackProdPlugins = [
 module.exports = {
   context: __dirname,
   devtool: webpackDevtool,
-  entry: './app/app.js',
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, './dist/'),
     publicPath: '/dist/',
